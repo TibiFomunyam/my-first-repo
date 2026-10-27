@@ -1,8 +1,19 @@
-# My First GitHub Repository
+# About Me
 
-Welcome to my first GitHub repository!
+Hello! My name is [tibi Fomunyam].
 
-This repository was created as part of the I-NNOVA Kickstarter program to help me learn Git and GitHub.
+I am participating in the I-NNOVA Kickstarter program, where I am learning new technical skills and exploring software development.
+
+## My Interests
+
+* Technology and innovation
+* Learning new skills
+* Solving problems
+* Building projects
+
+## My Learning Journey
+
+I am excited to learn how to use Git and GitHub to manage my projects, track changes, and develop good software development habits.
 
 ## My Objectives
 
