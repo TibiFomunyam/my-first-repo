@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 body {
     background-color: lightblue;
 }
-body {
-    background-color: #eaf2f8;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 30px;
-}
-h1 {
-    color: darkblue;
-    text-align: center;
-}
-
-    <h1>Welcome to my first website</h1>
 h1 {
     color: darkblue;
     text-align: center;
@@ -30,42 +8,79 @@ h1 {
     padding: 20px;
     border: 2px solid black;
     margin: 30px;
-}.interests {
+}
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+.interests {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
-.card {
+.interests {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}.card {
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     border: 2px solid darkblue;
     border-radius: 10px;
-}
-h2 {
     text-align: center;
+    width: 120px;
+}body {
+    background-color: #eaf2f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
     color: darkblue;
-}
-.card {
-    transition: 0.3s;
-    cursor: pointer;
+    font-size: 36px;
 }
 
-.card:hover {
-    background-color: darkblue;
-    color: white;
-    transform: scale(1.1);
+h2 {
+    color: darkblue;
+    text-align: center;
 }
-@media (max-width: 600px) {
-    .interests {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    h1 {
-        font-size: 24px;
-    }
+p {
+    font-size: 18px;
+    color: #333333;
 }
-</body>
-</html>
 
+.text {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+section {
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
